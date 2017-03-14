@@ -15,7 +15,6 @@
 		90FEB3141E7769DE00D8B65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FEB3121E7769DE00D8B65E /* LaunchScreen.storyboard */; };
 		90FEB31F1E7769DE00D8B65E /* SoapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB31E1E7769DE00D8B65E /* SoapTests.swift */; };
 		90FEB32A1E7769DE00D8B65E /* SoapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3291E7769DE00D8B65E /* SoapUITests.swift */; };
-		90FEB3381E776B9300D8B65E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3371E776B9300D8B65E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		90FEB3251E7769DE00D8B65E /* SoapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEB3291E7769DE00D8B65E /* SoapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoapUITests.swift; sourceTree = "<group>"; };
 		90FEB32B1E7769DE00D8B65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90FEB3371E776B9300D8B65E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Soap/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		90FEB2FB1E7769DD00D8B65E = {
 			isa = PBXGroup;
 			children = (
-				90FEB3371E776B9300D8B65E /* README.md */,
 				90FEB3061E7769DD00D8B65E /* Soap */,
 				90FEB31D1E7769DE00D8B65E /* SoapTests */,
 				90FEB3281E7769DE00D8B65E /* SoapUITests */,
@@ -270,7 +267,6 @@
 			files = (
 				90FEB30C1E7769DD00D8B65E /* SecondViewController.swift in Sources */,
 				90FEB3081E7769DD00D8B65E /* AppDelegate.swift in Sources */,
-				90FEB3381E776B9300D8B65E /* README.md in Sources */,
 				90FEB30A1E7769DD00D8B65E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
