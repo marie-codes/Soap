@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Soap
 //
 //  Created by Marie Park on 3/13/17.
@@ -8,8 +8,12 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CreateSoapViewController: UIViewController {
 
+    @IBAction func GenerateRecipeButtonPushed(_ sender: Any) {
+        performSegue(withIdentifier: "goToRecipe", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

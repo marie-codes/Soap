@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Soap
 //
 //  Created by Marie Park on 3/13/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class RecipeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

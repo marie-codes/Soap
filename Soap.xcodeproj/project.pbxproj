@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		90FEB3081E7769DD00D8B65E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3071E7769DD00D8B65E /* AppDelegate.swift */; };
-		90FEB30A1E7769DD00D8B65E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3091E7769DD00D8B65E /* FirstViewController.swift */; };
-		90FEB30C1E7769DD00D8B65E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB30B1E7769DD00D8B65E /* SecondViewController.swift */; };
+		90FEB30A1E7769DD00D8B65E /* CreateSoapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3091E7769DD00D8B65E /* CreateSoapViewController.swift */; };
+		90FEB30C1E7769DD00D8B65E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB30B1E7769DD00D8B65E /* RecipeViewController.swift */; };
 		90FEB30F1E7769DD00D8B65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FEB30D1E7769DD00D8B65E /* Main.storyboard */; };
 		90FEB3111E7769DD00D8B65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FEB3101E7769DD00D8B65E /* Assets.xcassets */; };
 		90FEB3141E7769DE00D8B65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FEB3121E7769DE00D8B65E /* LaunchScreen.storyboard */; };
 		90FEB31F1E7769DE00D8B65E /* SoapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB31E1E7769DE00D8B65E /* SoapTests.swift */; };
 		90FEB32A1E7769DE00D8B65E /* SoapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3291E7769DE00D8B65E /* SoapUITests.swift */; };
+		90FEB33A1E77727C00D8B65E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3391E77727C00D8B65E /* MainViewController.swift */; };
+		90FEB33C1E7772FB00D8B65E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB33B1E7772FB00D8B65E /* SettingsViewController.swift */; };
+		90FEB3411E7777B000D8B65E /* SavedRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3401E7777B000D8B65E /* SavedRecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,8 @@
 /* Begin PBXFileReference section */
 		90FEB3041E7769DD00D8B65E /* Soap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEB3071E7769DD00D8B65E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90FEB3091E7769DD00D8B65E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		90FEB30B1E7769DD00D8B65E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		90FEB3091E7769DD00D8B65E /* CreateSoapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateSoapViewController.swift; path = Soap/CreateSoapViewController.swift; sourceTree = "<group>"; };
+		90FEB30B1E7769DD00D8B65E /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeViewController.swift; path = Soap/RecipeViewController.swift; sourceTree = "<group>"; };
 		90FEB30E1E7769DD00D8B65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90FEB3101E7769DD00D8B65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90FEB3131E7769DE00D8B65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		90FEB3251E7769DE00D8B65E /* SoapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEB3291E7769DE00D8B65E /* SoapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoapUITests.swift; sourceTree = "<group>"; };
 		90FEB32B1E7769DE00D8B65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FEB3391E77727C00D8B65E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Soap/MainViewController.swift; sourceTree = "<group>"; };
+		90FEB33B1E7772FB00D8B65E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Soap/SettingsViewController.swift; sourceTree = "<group>"; };
+		90FEB3401E7777B000D8B65E /* SavedRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedRecipeViewController.swift; path = Soap/SavedRecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				90FEB3071E7769DD00D8B65E /* AppDelegate.swift */,
-				90FEB3091E7769DD00D8B65E /* FirstViewController.swift */,
-				90FEB30B1E7769DD00D8B65E /* SecondViewController.swift */,
-				90FEB30D1E7769DD00D8B65E /* Main.storyboard */,
+				90FEB33D1E77733D00D8B65E /* Model */,
+				90FEB33E1E77734500D8B65E /* View */,
+				90FEB33F1E77734C00D8B65E /* Controller */,
 				90FEB3101E7769DD00D8B65E /* Assets.xcassets */,
 				90FEB3121E7769DE00D8B65E /* LaunchScreen.storyboard */,
 				90FEB3151E7769DE00D8B65E /* Info.plist */,
@@ -126,6 +132,34 @@
 				90FEB32B1E7769DE00D8B65E /* Info.plist */,
 			);
 			path = SoapUITests;
+			sourceTree = "<group>";
+		};
+		90FEB33D1E77733D00D8B65E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90FEB33E1E77734500D8B65E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90FEB30D1E7769DD00D8B65E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		90FEB33F1E77734C00D8B65E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90FEB3391E77727C00D8B65E /* MainViewController.swift */,
+				90FEB3091E7769DD00D8B65E /* CreateSoapViewController.swift */,
+				90FEB30B1E7769DD00D8B65E /* RecipeViewController.swift */,
+				90FEB3401E7777B000D8B65E /* SavedRecipeViewController.swift */,
+				90FEB33B1E7772FB00D8B65E /* SettingsViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90FEB30C1E7769DD00D8B65E /* SecondViewController.swift in Sources */,
+				90FEB3411E7777B000D8B65E /* SavedRecipeViewController.swift in Sources */,
+				90FEB30C1E7769DD00D8B65E /* RecipeViewController.swift in Sources */,
 				90FEB3081E7769DD00D8B65E /* AppDelegate.swift in Sources */,
-				90FEB30A1E7769DD00D8B65E /* FirstViewController.swift in Sources */,
+				90FEB30A1E7769DD00D8B65E /* CreateSoapViewController.swift in Sources */,
+				90FEB33C1E7772FB00D8B65E /* SettingsViewController.swift in Sources */,
+				90FEB33A1E77727C00D8B65E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +555,7 @@
 				90FEB3301E7769DE00D8B65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90FEB3311E7769DE00D8B65E /* Build configuration list for PBXNativeTarget "SoapTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +564,7 @@
 				90FEB3331E7769DE00D8B65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90FEB3341E7769DE00D8B65E /* Build configuration list for PBXNativeTarget "SoapUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +573,7 @@
 				90FEB3361E7769DE00D8B65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
