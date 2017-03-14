@@ -78,7 +78,7 @@
                     <navigationItem key="navigationItem" id="3NK-of-pWV"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <segue destination="fE4-be-WK6" kind="show" identifier="goToRecipe" id="EQ6-Fr-1bH"/>
+                        <segue destination="t7d-zr-uzc" kind="show" identifier="goToRecipe" id="CHS-ki-fqC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -106,12 +106,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recipe" id="Fv1-An-zb3">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="4Ip-Fa-LsT"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="ev0-fr-ZLq"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6g-dF-fWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3566" y="15"/>
+            <point key="canvasLocation" x="2689" y="65"/>
         </scene>
         <!--SavedRecipeViewController-->
         <scene sceneID="wg7-f3-ORb">
@@ -154,7 +154,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Saved Recipes" id="X1u-8w-etK"/>
                     <connections>
-                        <segue destination="fE4-be-WK6" kind="show" id="Oct-kA-OVq"/>
+                        <segue destination="t7d-zr-uzc" kind="show" id="Cn9-47-0d4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -288,25 +288,6 @@
             </objects>
             <point key="canvasLocation" x="750" y="1117"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="v6u-en-eOO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fE4-be-WK6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="n83-PD-1By"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bQ1-NL-DWh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="t7d-zr-uzc" kind="relationship" relationship="rootViewController" id="dyB-FJ-CE6"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GGq-wG-NNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2650" y="15"/>
-        </scene>
     </scenes>
     <resources>
         <image name="create" width="30" height="30"/>
@@ -314,6 +295,6 @@
         <image name="settings" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EQ6-Fr-1bH"/>
+        <segue reference="Cn9-47-0d4"/>
     </inferredMetricsTieBreakers>
 </document>
