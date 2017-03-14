@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733E6F38E590F65A51E72E3A /* Pods_Soap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC59BF2E6A8D618A418CF2B /* Pods_Soap.framework */; };
 		90FEB3081E7769DD00D8B65E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3071E7769DD00D8B65E /* AppDelegate.swift */; };
 		90FEB30A1E7769DD00D8B65E /* CreateSoapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB3091E7769DD00D8B65E /* CreateSoapViewController.swift */; };
 		90FEB30C1E7769DD00D8B65E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FEB30B1E7769DD00D8B65E /* RecipeViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33EB113A903A9A713DF3AA77 /* Pods-Soap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soap/Pods-Soap.debug.xcconfig"; sourceTree = "<group>"; };
 		90FEB3041E7769DD00D8B65E /* Soap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEB3071E7769DD00D8B65E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90FEB3091E7769DD00D8B65E /* CreateSoapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateSoapViewController.swift; path = Soap/CreateSoapViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		90FEB3391E77727C00D8B65E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Soap/MainViewController.swift; sourceTree = "<group>"; };
 		90FEB33B1E7772FB00D8B65E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Soap/SettingsViewController.swift; sourceTree = "<group>"; };
 		90FEB3401E7777B000D8B65E /* SavedRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedRecipeViewController.swift; path = Soap/SavedRecipeViewController.swift; sourceTree = "<group>"; };
+		9285EEB7005A2819BE611566 /* Pods-Soap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soap/Pods-Soap.release.xcconfig"; sourceTree = "<group>"; };
+		FFC59BF2E6A8D618A418CF2B /* Pods_Soap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733E6F38E590F65A51E72E3A /* Pods_Soap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +94,8 @@
 				90FEB31D1E7769DE00D8B65E /* SoapTests */,
 				90FEB3281E7769DE00D8B65E /* SoapUITests */,
 				90FEB3051E7769DD00D8B65E /* Products */,
+				B11BBFE2C83332D4E41D665D /* Pods */,
+				AB7C336133EE1BB4D1692410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +169,23 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		AB7C336133EE1BB4D1692410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFC59BF2E6A8D618A418CF2B /* Pods_Soap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B11BBFE2C83332D4E41D665D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33EB113A903A9A713DF3AA77 /* Pods-Soap.debug.xcconfig */,
+				9285EEB7005A2819BE611566 /* Pods-Soap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90FEB32E1E7769DE00D8B65E /* Build configuration list for PBXNativeTarget "Soap" */;
 			buildPhases = (
+				53CB231AA982FE04AE3C0DF1 /* [CP] Check Pods Manifest.lock */,
 				90FEB3001E7769DD00D8B65E /* Sources */,
 				90FEB3011E7769DD00D8B65E /* Frameworks */,
 				90FEB3021E7769DD00D8B65E /* Resources */,
+				C3A913B83A46D737E0CCDD57 /* [CP] Embed Pods Frameworks */,
+				9A6F73C37B75830EE9D7690C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +320,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53CB231AA982FE04AE3C0DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6F73C37B75830EE9D7690C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soap/Pods-Soap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A913B83A46D737E0CCDD57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soap/Pods-Soap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90FEB3001E7769DD00D8B65E /* Sources */ = {
@@ -454,6 +529,7 @@
 		};
 		90FEB32F1E7769DE00D8B65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EB113A903A9A713DF3AA77 /* Pods-Soap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LL5C5F8ENK;
@@ -467,6 +543,7 @@
 		};
 		90FEB3301E7769DE00D8B65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9285EEB7005A2819BE611566 /* Pods-Soap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LL5C5F8ENK;

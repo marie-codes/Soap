@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Alamofire
 
 class SavedRecipeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Alamofire.request("http://gotthestock.com/api/product/", method: .get).responseJSON { response in
+            if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+            }
+        }
         // Do any additional setup after loading the view.
     }
 
