@@ -22,33 +22,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bjz-sx-VmF">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bjz-sx-VmF">
                                 <rect key="frame" x="67" y="203" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DoJ-2T-F5D">
-                                <rect key="frame" x="67" y="38" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainImage" translatesAutoresizingMaskIntoConstraints="NO" id="DoJ-2T-F5D">
+                                <rect key="frame" x="16" y="82" width="343" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="gLW-Bk-ayD"/>
+                                    <constraint firstAttribute="height" constant="140" id="gLW-Bk-ayD"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
                                 <rect key="frame" x="108" y="415" width="158" height="42"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
                                 <rect key="frame" x="90" y="464" width="195" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VX1-OP-1nB">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VX1-OP-1nB">
                                 <rect key="frame" x="129" y="516" width="114" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHA-oH-qFE">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHA-oH-qFE">
                                         <rect key="frame" x="0.0" y="0.0" width="114" height="30"/>
                                         <state key="normal" title="Generate Recipe"/>
                                         <connections>
@@ -63,6 +63,7 @@
                             <constraint firstItem="bjz-sx-VmF" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="1WB-yj-7rY"/>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="bjz-sx-VmF" secondAttribute="bottom" constant="84" id="85o-27-Tg0"/>
+                            <constraint firstItem="DoJ-2T-F5D" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="90D-cQ-5yg"/>
                             <constraint firstItem="VX1-OP-1nB" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="129" id="CO7-Rh-xuq"/>
                             <constraint firstItem="DoJ-2T-F5D" firstAttribute="leading" secondItem="bjz-sx-VmF" secondAttribute="leading" id="OBt-Pg-iAm"/>
                             <constraint firstItem="bjz-sx-VmF" firstAttribute="top" secondItem="DoJ-2T-F5D" secondAttribute="bottom" constant="37" id="Q09-IT-6Iy"/>
@@ -72,11 +73,14 @@
                             <constraint firstItem="DoJ-2T-F5D" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="18" id="eRd-SY-qeT"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                             <constraint firstItem="DoJ-2T-F5D" firstAttribute="trailing" secondItem="bjz-sx-VmF" secondAttribute="trailing" id="hMn-uk-kXI"/>
+                            <constraint firstItem="DoJ-2T-F5D" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="kKQ-vj-YPU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DoJ-2T-F5D" secondAttribute="trailing" id="kkt-8C-RmA"/>
                             <constraint firstItem="VX1-OP-1nB" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="35" id="rHc-j5-14U"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3NK-of-pWV"/>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationItem key="navigationItem" title="Create Recipe" id="3NK-of-pWV">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="xqa-BX-5CS"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="t7d-zr-uzc" kind="show" identifier="goToRecipe" id="CHS-ki-fqC"/>
                     </connections>
@@ -105,9 +109,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Recipe" id="Fv1-An-zb3">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="ev0-fr-ZLq"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Recipe" id="Fv1-An-zb3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6g-dF-fWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -231,11 +233,11 @@
             </objects>
             <point key="canvasLocation" x="-425" y="555"/>
         </scene>
-        <!--New Recipe-->
+        <!--Create Recipe-->
         <scene sceneID="kOY-RQ-uUR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zqi-pR-R6A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="New Recipe" image="create" selectedImage="create" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Create Recipe" image="create" selectedImage="create" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Okh-V2-Hgc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -290,11 +292,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="MainImage" width="580" height="234"/>
         <image name="create" width="30" height="30"/>
         <image name="saved" width="30" height="30"/>
         <image name="settings" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Cn9-47-0d4"/>
+        <segue reference="CHS-ki-fqC"/>
     </inferredMetricsTieBreakers>
 </document>
